@@ -36,4 +36,9 @@ public class LoadTest {
 		System.out.println(User.age1);
 		System.out.println(User.age2);
 	}
+	
+	@Test
+	public void testLoad6() {
+		User.getHands();
+	}
 }
